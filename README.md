@@ -1,4 +1,5 @@
 # RelaxWithMe
 
-##A simple Bootstrap webpage
-Chilled and calm, with soft colors...
+## A simple Bootstrap webpage    
+ 
+Chilled and Calm Bootstrap template
