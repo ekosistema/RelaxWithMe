@@ -1,5 +1,5 @@
 # RelaxWithMe
 
-## A simple Bootstrap webpage    
+## A simple Bootstrap Template    
  
 Chilled and Calm Bootstrap template
