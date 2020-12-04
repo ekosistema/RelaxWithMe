@@ -35,9 +35,9 @@
     <link rel="stylesheet" href="assets/css/styles.css?h=d41d8cd98f00b204e9800998ecf8427e">
 </head>
 
-<body>
+<body class="text-muted" style="font-family: 'Red Hat Display', sans-serif;color: #888888;filter: grayscale(0%);">
     <div class="container">
-        <!-- Start: RelaxWithMe_NavBar-1 -->
+        <!-- Start: Relax_NavBar -->
         <nav class="navbar navbar-light navbar-expand-md d-flex justify-content-center navigation-clean">
             <div class="container-fluid"><a class="navbar-brand text-muted d-flex d-sm-flex d-xl-flex align-items-center align-items-sm-center align-items-xl-center" style="font-size: 2em;font-family: 'Red Hat Display', sans-serif;height: 2.5em;" href="index.html"><i class="material-icons" style="padding-right: 0.5em;font-size: 1em;">play_circle_outline</i>Relax With Me</a>
                 <button
@@ -48,7 +48,7 @@
                             <li class="nav-item d-flex justify-content-sm-end"></li>
                             <li class="nav-item"><a class="nav-link d-flex justify-content-start justify-content-sm-end" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link d-flex justify-content-start justify-content-sm-end" href="page.html">Page</a></li>
-                            <li class="nav-item"><a class="nav-link d-flex justify-content-start justify-content-sm-end" href="single.html">Single</a></li>
+                            <li class="nav-item"><a class="nav-link active d-flex justify-content-start justify-content-sm-end" href="single.html">Single</a></li>
                             <li class="nav-item"></li>
                             <li class="nav-item"></li>
                         </ul>
@@ -60,18 +60,17 @@
                     </div>
             </div>
         </nav>
-        <!-- End: RelaxWithMe_NavBar-1 -->
+        <!-- End: Relax_NavBar -->
     </div>
+    <!-- Start: Parallax_Thin -->
+    <div data-bs-parallax-bg="true" style="height: 100px;background: url(&quot;assets/img/grass-828706_1920.jpg?h=090f9261fb77629c54dfd13fc2701246&quot;) center / cover;"></div>
+    <!-- End: Parallax_Thin -->
     <!-- Start: Simple Slider -->
     <div class="simple-slider">
         <!-- Start: Slideshow -->
-        <div class="swiper-container" style="height: 6em;">
+        <div class="swiper-container">
             <!-- Start: Slide Wrapper -->
-            <div data-aos="fade" data-aos-once="true" class="swiper-wrapper">
-                <!-- Start: Slide -->
-                <div class="swiper-slide" style="background-image: url(&quot;assets/img/grass-828706_1920.jpg?h=090f9261fb77629c54dfd13fc2701246&quot;);opacity: 0.84;margin-bottom: 3em;height: 100px;"></div>
-                <!-- End: Slide -->
-            </div>
+            <div data-aos="fade" data-aos-once="true" class="swiper-wrapper"></div>
             <!-- End: Slide Wrapper -->
             <!-- Start: Pagination -->
             <div class="invisible swiper-pagination"></div>
@@ -87,22 +86,66 @@
     </div>
     <!-- End: Simple Slider -->
     <!-- Start: 1 Row 3 Columns -->
-    <div style="padding-top: 3em;">
+    <div style="padding-top: 0;">
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row text-center">
+                <div class="col-xl-9">
                     <div>
-                        <div class="col-xl-12 text-muted d-block" style="padding: 3em;padding-right: 5em;padding-left: 5em;"><i class="fa fa-warning d-flex d-xl-flex justify-content-center justify-content-xl-center" style="height: 16px;font-size: 100px;margin-bottom: 1em;"></i>
-                            <article></article>
-                            <h3 class="text-center text-muted float-none">There is nothing here</h3>
-                            <p class="text-break text-center text-muted d-block pulse animated"><br>Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Fuga&nbsp;natus&nbsp;officiis&nbsp;blanditiis&nbsp;quae&nbsp;beatae&nbsp;perferendis.&nbsp;Eius&nbsp;beatae&nbsp;saepe&nbsp;voluptas,&nbsp;accusamus&nbsp;quasi&nbsp;ea&nbsp;ab&nbsp;debitis&nbsp;dolorem,&nbsp;eum,&nbsp;numquam&nbsp;necessitatibus&nbsp;perspiciatis&nbsp;totam&nbsp;animi?&nbsp;Corrupti&nbsp;animi&nbsp;dolor&nbsp;sequi&nbsp;natus.&nbsp;Iure&nbsp;delectus&nbsp;magni&nbsp;suscipit&nbsp;voluptas&nbsp;doloremque,&nbsp;pariatur&nbsp;sapiente&nbsp;quas&nbsp;nemo.&nbsp;Tenetur&nbsp;a&nbsp;alias&nbsp;est.<br><br></p>
+                        <div class="col-xl-12 text-muted d-block" style="padding: 1.5em;padding-right: 1.5em;padding-left: 1.5em;"><img class="img-thumbnail" src="assets/img/grass-828706_1920.jpg?h=090f9261fb77629c54dfd13fc2701246" width="auto" height="auto" style="padding-bottom: 1.5em;opacity: 0.70;">
+                            <h1 class="text-left text-muted float-none" style="padding-top: 0.5em;padding-bottom: 0.5em;text-align: left;">Lorem Ipsum Dolor</h1>
+                            <hr>
+                            <p class="text-justify text-muted d-block pulse animated"><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus officiis blanditiis quae beatae perferendis. Eius beatae saepe voluptas, accusamus quasi ea ab debitis dolorem, eum, numquam necessitatibus perspiciatis
+                                totam animi? Corrupti animi dolor sequi natus. Iure delectus magni suscipit voluptas doloremque, pariatur sapiente quas nemo. Tenetur a alias est.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus
+                                officiis blanditiis quae beatae perferendis. Eius beatae saepe voluptas, accusamus quasi ea ab debitis dolorem, eum, numquam necessitatibus perspiciatis totam animi? Corrupti animi dolor sequi natus. Iure delectus magni
+                                suscipit voluptas doloremque, pariatur sapiente quas nemo. Tenetur a alias est.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus officiis blanditiis quae beatae perferendis. Eius beatae saepe voluptas,
+                                accusamus quasi ea ab debitis dolorem, eum, numquam necessitatibus perspiciatis totam animi? Corrupti animi dolor sequi natus. Iure delectus magni suscipit voluptas doloremque, pariatur sapiente quas nemo. Tenetur a alias
+                                est.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus officiis blanditiis quae beatae perferendis. Eius beatae saepe voluptas, accusamus quasi ea ab debitis dolorem, eum, numquam necessitatibus
+                                perspiciatis totam animi? Corrupti animi dolor sequi natus. Iure delectus magni suscipit voluptas doloremque, pariatur sapiente quas nemo. Tenetur a alias est.<br></p>
                         </div>
                     </div>
+                </div>
+                <div class="col-xl-3" style="padding-top: 1.5em;padding-bottom: 1.5em;"><img class="img-thumbnail border rounded-0" src="assets/img/grass-828706_1920.jpg?h=090f9261fb77629c54dfd13fc2701246" style="opacity: 0.70;">
+                    <h3 class="text-muted" style="padding-top: 0.5em;padding-bottom: 0.5em;">Ipsum</h3>
+                    <p style="padding-top: 0.5em;padding-bottom: 0.5em;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- End: 1 Row 3 Columns -->
+    <!-- Start: Features Boxed -->
+    <div class="features-boxed"></div>
+    <!-- End: Features Boxed -->
+    <!-- Start: Footer Clean -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Start: Services -->
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: Services -->
+                    <!-- Start: About -->
+                    <div class="col-sm-4 col-md-3 col-xl-6 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                        </ul>
+                    </div>
+                    <!-- End: About -->
+                    <!-- Start: Social Icons -->
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Relax WIth Me © 2020</p>
+                    </div>
+                    <!-- End: Social Icons -->
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- End: Footer Clean -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-init.js?h=009e1093d04bef4d964ccf07197400d3"></script>
